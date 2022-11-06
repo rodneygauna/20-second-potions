@@ -7,9 +7,9 @@
 ]]
 
 pots={}
-for i=1,40 do
+for i=1,47 do
     local newpot={}
-    newpot.spr=flr(rnd(52))
+    newpot.spr=flr(rnd(47)+4)
     newpot.x=flr(rnd(128))
     newpot.y=flr(rnd(128))
     newpot.spd=rnd(1)+0.5
