@@ -1,8 +1,16 @@
 -- tools.lua
 
+pots={}
+for i=1,47 do
+    local newpot={}
+    newpot.spr=flr(rnd(47)+4)
+    newpot.x=flr(rnd(128))
+    newpot.y=flr(rnd(128))
+    newpot.spd=rnd(1)+0.5
+    add(pots,newpot)
+end
+
 function bgpot()
-    -- generates pots and
-    -- randomizes their x,y, and spd
     for i=1,#pots do
         local bgpots=pots[i]
         spr(bgpots.spr, bgpots.x,bgpots.y)

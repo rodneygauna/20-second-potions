@@ -6,16 +6,6 @@
     Game Jam: https://itch.io/jam/20-second-game-jam
 ]]
 
-pots={}
-for i=1,47 do
-    local newpot={}
-    newpot.spr=flr(rnd(47)+4)
-    newpot.x=flr(rnd(128))
-    newpot.y=flr(rnd(128))
-    newpot.spd=rnd(1)+0.5
-    add(pots,newpot)
-end
-
 function _init()
     cls(0)
     mode="menu"
