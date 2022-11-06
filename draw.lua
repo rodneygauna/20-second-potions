@@ -8,5 +8,4 @@ function draw_menu()
     print("instructions go here",46,68, 10)
     print("made by s0n0f4l1ch",57,110,13)
     print("20 second game jam",57,120,13)
-
 end
